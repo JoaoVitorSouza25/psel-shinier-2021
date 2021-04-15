@@ -6,11 +6,14 @@ void main() => runApp(Aplicativo());
 class Aplicativo extends StatelessWidget
 {
   @override
+
+  //Fazer tela de login
   Widget build(BuildContext context)
   {
     return MaterialApp(
-      title: 'Aplicativo.',
-      theme: ThemeData(primarySwatch: Colors.red),
+      title: 'Tela de Login.',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Colors.grey),
       home: LoginPage(),
       );
   }
