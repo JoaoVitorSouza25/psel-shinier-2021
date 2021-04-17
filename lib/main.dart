@@ -13,7 +13,8 @@ class Aplicativo extends StatelessWidget
     return MaterialApp(
       title: 'Tela de Login.',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.grey),
+      theme: ThemeData(
+        primarySwatch: Colors.grey),
       home: LoginPage(),
       );
   }
